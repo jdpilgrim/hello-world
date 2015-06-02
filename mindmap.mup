@@ -1,5 +1,84 @@
 {
   "title": "Press Space or double-click to edit",
   "id": 1,
-  "formatVersion": 2
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "one",
+      "id": 2
+    },
+    "11": {
+      "title": "two",
+      "id": 3,
+      "attr": {
+        "storyboard-scenes": [
+          {
+            "storyboards": {
+              "Storyboard 1": 2
+            }
+          }
+        ],
+        "style": {}
+      }
+    },
+    "21": {
+      "title": "three",
+      "id": 4
+    },
+    "31": {
+      "title": "four",
+      "id": 5,
+      "ideas": {
+        "1": {
+          "title": "five",
+          "id": 6,
+          "ideas": {
+            "1": {
+              "title": "six",
+              "id": 7,
+              "attr": {
+                "storyboard-scenes": [
+                  {
+                    "storyboards": {
+                      "Storyboard 1": 1
+                    }
+                  },
+                  {
+                    "storyboards": {
+                      "Storyboard 1": 4
+                    },
+                    "type": "with-children"
+                  }
+                ],
+                "style": {}
+              }
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "seven",
+          "id": 8
+        }
+      },
+      "attr": {
+        "style": {},
+        "storyboard-scenes": [
+          {
+            "storyboards": {
+              "Storyboard 1": 3
+            }
+          }
+        ]
+      }
+    }
+  },
+  "attr": {
+    "storyboards": [
+      "Storyboard 1"
+    ],
+    "style": {}
+  }
 }
